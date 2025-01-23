@@ -74,7 +74,6 @@ gen-external-apklibs
 *.dylib
 
 # Executables
-*.exe
 *.out
 *.app
 *.i*86
@@ -525,9 +524,6 @@ erl_crash.dump
 ### Go ###
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe~
 
 # Test binary, built with `go test -c`
 *.test
@@ -539,6 +535,14 @@ erl_crash.dump
 
 # Go workspace file
 go.work
+
+# But not these files...
+!*.go
+!go.sum
+!go.mod
+
+!README.md
+!LICENSE
 
 ### Haskell ###
 dist
