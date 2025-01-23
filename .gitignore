@@ -1191,6 +1191,7 @@ $RECYCLE.BIN/
 # Zig programming language
 
 zig-cache/
+.zig-cache/
 zig-out/
 build-*/
 docgen_tmp/
