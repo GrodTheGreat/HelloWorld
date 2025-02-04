@@ -1,4 +1,4 @@
 <?php
-const hello = "Hello, World!";
+const hello = "Hello, World!\n";
 echo hello;
 ?>
